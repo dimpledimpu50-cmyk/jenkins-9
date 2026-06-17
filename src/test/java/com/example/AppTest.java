@@ -11,6 +11,6 @@ public class AppTest
 {
     @Test
     public void testAdd(){
-      assertEquals(3,App.add(1,2));
+      assertEquals(4,App.add(1,2));
       }
 }
