@@ -1,16 +1,12 @@
 package com.example;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Assert.*;
 
+public class AppTest {
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
     @Test
-    public void testAdd(){
-      assertEquals(3,App.add(1,2));
-      }
+    public void testAdd() {
+        Assert.assertEquals(5, App.add(2, 3));
+    }
 }
